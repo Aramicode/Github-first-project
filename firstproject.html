@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="materialize/css/font/material-icons.css">
+    <style>
+        header{
+            background: url(Images/Travels.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        @media screen and (max-width: 670px){
+            header{
+                min-height: 500px;
+            }
+        }
+      /* section-search input {
+          padding: 5px !important;
+          font-size: 18px !important;
+          width: 90% !important;
+          border: #f4f4f4 3px solid !important;
+      }   */
+    </style>
+</head>
+<body>
+<header>
+    <!-- nav bar -->
+    <nav class="nav-wrapper transparent">
+        <div class="navbar-fixed">
+        <div class="container">
+        <div class="nav-wrapper"></div>
+            <em><strong><a href="#" class="brand-logo center yellow-text">Travelbuddies</a></strong></em>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Popular Places</a></li>
+                <li><a href="#">Book Now</a></li>
+            </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Popular Places</a></li>
+        </ul>
+
+    <!-- Section: Search Destination -->
+    <div class="container"><section id="search" class="section section-search #263238 blue-grey darken-4
+    white-text centre scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h6>Search Destinations</h6>
+                    <div class="input-field">
+                        <input type="text" class="white grey-text 
+                        autocomplete" id="autocomplete- input" placeholder="Santorini, Cuba, Cancun, etc..">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</header>
+
+<!-- Section Icon Boxes -->
+<div class="section section-icons grey lighten-4 center"></div>
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card-panel">
+                <i class="material-icons large teal-text">room</i>
+                <h4>Pick Where</h4>
+                <p>Lorem ipsum 
+                dolor sit amet, consectetur adipisicin
+                elit. Dolor, esse?</p>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card-panel">
+                <i class="material-icons large teal-text">store</i>
+                <h4>Travel Shop</h4>
+                <p>Lorem ipsum 
+                dolor sit amet, consectetur adipisicin
+                elit. Dolor, esse?</p>
+            </div>
+        </div>
+        <div class="col s12 m4">
+            <div class="card-panel">
+                <i class="material-icons large teal-text">airplanemode_active</i>
+                <h4>Cheap Flights</h4>
+                <p>Lorem ipsum 
+                dolor sit amet, consectetur adipisicin
+                elit. Dolor, esse?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Cards -->
+    
+<div class="container">
+    <div class="row">
+        <h4 class="center">Popular Places</h4>
+        <div class="col s12 l6">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Travelss (2).jpg" alt="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                <i class="material-icons">favorite</i>
+            </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Visit Singapore</span>  
+                <p>Lorem ipsum voluptatibus cum amet sed eos nostrum.</p>
+            </div>
+            <div class="card-option">
+                <a href="">MORE DETAILS</a>
+            </div>
+        </div>
+    </div>
+
+        <div class="col s12 l6">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Travel (8).jpg" alt="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                <i class="material-icons">favorite</i>
+            </a> 
+            </div>
+            <div class="card-content">
+              <span class="card-title">Visit Mexico</span>  
+                <p>Lorem ipsum dolor sit amet consect perspiciatis?</p>
+            </div>
+            <div class="card-option">
+                <a href="">MORE DETAILS</a>
+        </div>
+    </div>
+</div>
+
+        <div class="col s12 l6">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/Travel (5).jpg" alt="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                <i class="material-icons">favorite</i>
+            </a> 
+            </div>
+            <div class="card-content">
+            <span class="card-title">Visit Maldives</span>  
+                <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit.</p>
+            </div>
+            <div class="card-option">
+                <a href="">MORE DETAILS</a>
+         </div>
+     </div>
+  </div>
+<div class="col s12 l6">
+    <div class="card">
+            <div class="card-image">
+                <img src="images/Travelsss (4).jpg" alt="">
+                <a href="#" class="halfway-fab btn-floating red pulse">
+                <i class="material-icons">favorite</i>
+            </a> 
+            </div>
+        <div class="card-content">
+              <span class="card-title">Visit Hawaii</span>  
+                <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    <div class="card-option">
+            <a href="">MORE DETAILS</a>
+        </div>
+    </div>
+</div>
+</div>
+ 
+<!-- Contact us form   -->
+
+   <!-- Parallaxes -->
+   <div class="parallax-container">
+    <div class="parallax">
+        <img src="Images/Travels (5).jpg" alt="" class="responsive-img">
+    </div>
+</div>    
+<!-- another way to make contact form -->
+<!-- <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+            <div class="card-panel indigo white-text center">
+                <i class="material-icons">email</i>
+                <h5>Contact Us For Booking</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ut?</p>
+            </div>
+        </div>
+      </div>  
+    </div> -->
+
+    <div class="row">
+        <div class="col s12 l6">
+            <h2 class="grey-text text-darken-4">Get In Touch</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptates sunt eius soluta, quaerat optio sequi temporibus dolorem ipsum dolorum expedita.</p> 
+           </div>
+   
+           <div class="col s12 l6">
+               <form action="">
+                   <div class="input-field">
+                       <i class="material-icons prefix">email</i>
+                       <input type="email" id="email">
+                       <label for="email">Your Email</label>
+                   </div>
+                   <div class="input-field">
+                       <i class="material-icons prefix">message</i>
+                       <textarea id="message" class="materialize-textarea"></textarea>
+                       <label for="message">Your message</label>
+                   </div>
+               </form>
+           </div>
+    </div>
+</div>
+</section>
+
+<!-- Follow us on Social Media- complete this later -->
+<footer class="page-footer #1a237e indigo darken-4 white-text">
+    <div class="container">
+        <div class="row">
+            <div class="col s6 m12">
+            <p>Connect with us</p>
+            <ul>
+                <li>Facebook</li>
+                <li>LinkedIn</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-copyright white-text">
+    <div class="container center-align">&copy; 2020 Aramidecodes</div>
+    </div>
+    </div>
+</footer>
+
+
+
+
+
+        <script src="materialize/js/jquery.js"></script>
+        <script src="materialize/js/materialize.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+            });
+        </script>
+</body>
+</html>
